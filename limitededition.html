@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Limited Edition - Kayla</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+<div class="head">
+    
+    <div class="container">
+    <div class="navbar">
+        <div class="logo" id="logos">
+          <a href="./index.html">  <img src="images/Kayla-design-fluffy-name.png" width="190px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./allproducts.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="./accounts.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="./cart.html"><img src="Images/7835563.png" width="30px" height="30px"></a>
+        <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+        <div class="counting">
+            <span>0</span>
+            </div>
+    </div>
+   
+</div>
+</div>
+<!---single product details-->
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+           <img src="Images/pinksmartwatchgroud.jpg" width="100%";>
+        </div>
+        <div class="col-2 text">
+        <p>Home / Smartwatches</p>
+        <h1>Cute Pink Smartwatch</h1>
+        <h4>$300</h4>
+        <select>
+            <option>Select Colour</option>
+            <option>Pink</option>
+            <option>Purple</option>
+            <option>Blue</option>
+            <option>White</option>
+            <option>Black</option>
+        </select>
+        <input type="number" value="1"> 
+        <a href="" class="btn">Add To Cart</a>
+        <h3>Product Details</h3>
+        <p> This Super Cute and Comfortable Smartwatch Easily Helps You Keep Track Of Everything. It is Very light, and Gives You a Cute and Stylish Look!</p>
+        </div>
+    </div>
+</div>
+
+<!------ all products ------>
+<div class="small-container" >
+   
+    <div class="row">
+        <div class="col-4">
+          <a href="./whitesneakers.html">  <img src="Images/white chunky shoes.jpg"></a>
+            <h4>White Chunky Sneakers With Hearts</h4>
+            <p>$150</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/blackplatformboots.jpg">
+            <h4>Black Platform Boots</h4>
+            <p>$200</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/friendship necklace.jpg">
+            <h4>Puppy Friendship Necklace</h4>
+            <p>$100</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/yinyang bracelet.jpg">
+            <h4>YinYang Bracelet</h4>
+            <p>$100</p>
+        </div>
+    </div>
+    
+    
+<div class="foote">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                 <a href="https://play.google.com/store/apps/" target="_blank"><img src="Images/google-play-icon-479x512-dbi8m5ss.png"></a>
+                <a href="https://www.apple.com/app-store/" target="_blank"><img src="Images/apple_ios_brand_logo_icon_133257.png"></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+              <a href="#logos">  <img src="Images/Kayla-design-fluffy-name.png"></a>
+                <p>We Make sure You're Always Cute'n'Comfy.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Posts</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Keep Up With Us</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>TikTok</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                </ul>
+        </div>
+        <hr>
+        <p class="copyright">~Made By Ekpunobi Adiba Kayla~</p>
+    </div>
+</div>
+<!---code for the menu bar-->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight ="200px"  
+            }
+            else{
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>
